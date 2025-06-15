@@ -32,6 +32,58 @@ const thinkingTools = [
         url: 'https://plusiam.github.io/think-puzzle-explore/',
         githubUrl: 'https://github.com/plusiam/think-puzzle-explore',
         hasInteractive: true
+    },
+    
+    // 2단계: 종합·체계화 (Synthesis)
+    {
+        id: 'color-symbol-image',
+        name: 'Color, Symbol, Image',
+        nameKo: '색상-상징-이미지',
+        stage: 'synthesis',
+        emoji: '🎨',
+        description: '개념을 색상, 상징, 이미지로 표현하여 깊이 이해',
+        purpose: '추상적 개념의 시각화와 은유적 사고 발달',
+        usage: '문학 작품 분석, 역사 인물 이해, 감정 표현',
+        subjects: ['art', 'korean', 'social'],
+        features: ['색상 팔레트', '12색 프리셋', '커스텀 컬러', '자동 저장', 'PNG 다운로드'],
+        keywords: ['시각화', '은유', '상징', '창의성', 'CSI'],
+        url: 'https://plusiam.github.io/color-symbol-image-worksheet/',
+        githubUrl: 'https://github.com/plusiam/color-symbol-image-worksheet',
+        hasInteractive: true
+    },
+    {
+        id: 'connect-extend-challenge',
+        name: 'Connect-Extend-Challenge',
+        nameKo: '연결-확장-도전',
+        stage: 'synthesis',
+        emoji: '🔄',
+        description: '기존 지식과 연결, 새로운 학습으로 확장, 도전 과제 설정',
+        purpose: '학습의 연속성 확보와 심화 학습 방향 설정',
+        usage: '단원 연결, 심화 학습, 자기주도 학습',
+        subjects: ['all'],
+        features: ['연결 다이어그램', '도전 과제 설정'],
+        keywords: ['연결', '확장', '도전', '심화'],
+        url: 'https://plusiam.github.io/connect-extend-challengge-templates/',
+        githubUrl: 'https://github.com/plusiam/connect-extend-challengge-templates',
+        hasInteractive: true
+    },
+    
+    // 3단계: 심화 (Deepening)
+    {
+        id: 'step-inside',
+        name: 'Step Inside',
+        nameKo: '마음속으로 들어가기',
+        stage: 'deepening',
+        emoji: '👤',
+        description: '타인의 관점에서 생각하고 느끼고 궁금해하기',
+        purpose: '공감 능력과 다양한 관점 이해 능력 개발',
+        usage: '역사 인물 이해, 문학 작품 감상, 갈등 상황 이해',
+        subjects: ['social', 'korean', 'art'],
+        features: ['관점 전환 가이드', '공감 지도', '자동 저장', '이미지 저장'],
+        keywords: ['공감', '관점', '역할', '이해'],
+        url: 'https://plusiam.github.io/step-inside-v2/',
+        githubUrl: 'https://github.com/plusiam/step-inside-v2',
+        hasInteractive: true
     }
 ];
 
