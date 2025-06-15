@@ -25,10 +25,10 @@ const subjectThemes = {
         { value: 'culture', label: '문화' }
     ],
     moral: [
-        { value: 'self', label: '자아 성찰' },
-        { value: 'relationship', label: '인간 관계' },
-        { value: 'society-ethics', label: '사회 윤리' },
-        { value: 'values', label: '가치 탐구' }
+        { value: 'self-relation', label: '자신과의 관계' },
+        { value: 'others-relation', label: '타인과의 관계' },
+        { value: 'community-relation', label: '사회-공동체와의 관계' },
+        { value: 'nature-relation', label: '자연과의 관계' }
     ],
     art: [
         { value: 'appreciation', label: '작품 감상' },
@@ -65,10 +65,10 @@ const recommendationMap = {
     'social-culture': ['color-symbol-image', 'step-inside'],
     
     // 도덕
-    'moral-self': ['connect-extend-challenge', 'step-inside'],
-    'moral-relationship': ['circle-of-viewpoints', 'step-inside'],
-    'moral-society-ethics': ['compass-points', 'think-puzzle-explore'],
-    'moral-values': ['color-symbol-image', 'connect-extend-challenge'],
+    'moral-self-relation': ['connect-extend-challenge', 'step-inside'],
+    'moral-others-relation': ['circle-of-viewpoints', 'step-inside'],
+    'moral-community-relation': ['compass-points', 'think-puzzle-explore'],
+    'moral-nature-relation': ['see-think-wonder', 'color-symbol-image'],
     
     // 예술
     'art-appreciation': ['see-think-wonder', 'color-symbol-image', 'step-inside'],
