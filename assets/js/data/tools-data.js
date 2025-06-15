@@ -61,10 +61,10 @@ const thinkingTools = [
         purpose: '학습의 연속성 확보와 심화 학습 방향 설정',
         usage: '단원 연결, 심화 학습, 자기주도 학습',
         subjects: ['all'],
-        features: ['연결 다이어그램', '도전 과제 설정'],
-        keywords: ['연결', '확장', '도전', '심화'],
-        url: 'https://plusiam.github.io/connect-extend-challengge-templates/',
-        githubUrl: 'https://github.com/plusiam/connect-extend-challengge-templates',
+        features: ['연결 다이어그램', '도전 과제 설정', '학습 맵', '자동 저장'],
+        keywords: ['연결', '확장', '도전', '심화', 'CEC'],
+        url: 'https://plusiam.github.io/connect-extend-challenge/',
+        githubUrl: 'https://github.com/plusiam/connect-extend-challenge',
         hasInteractive: true
     },
     
@@ -80,9 +80,9 @@ const thinkingTools = [
         usage: '역사 인물 이해, 문학 작품 감상, 갈등 상황 이해',
         subjects: ['social', 'korean', 'art'],
         features: ['관점 전환 가이드', '공감 지도', '자동 저장', '이미지 저장'],
-        keywords: ['공감', '관점', '역할', '이해'],
-        url: 'https://plusiam.github.io/step-inside-v2/',
-        githubUrl: 'https://github.com/plusiam/step-inside-v2',
+        keywords: ['공감', '관점', '역할', '이해', '마음'],
+        url: 'https://plusiam.github.io/step-inside-worksheet/',
+        githubUrl: 'https://github.com/plusiam/step-inside-worksheet',
         hasInteractive: true
     }
 ];
