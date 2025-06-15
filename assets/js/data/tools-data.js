@@ -33,8 +33,40 @@ const thinkingTools = [
         githubUrl: 'https://github.com/plusiam/think-puzzle-explore',
         hasInteractive: true
     },
+    {
+        id: '321-bridge',
+        name: '3-2-1 Bridge',
+        nameKo: '3-2-1 브릿지',
+        stage: 'exploration',
+        emoji: '🌉',
+        description: '학습 전후의 생각을 연결하여 이해의 변화를 확인',
+        purpose: '사전 지식 활성화와 학습 후 개념 변화 시각화',
+        usage: '개념 학습, 실험/탐구 활동, 독서 활동, 프로젝트 학습',
+        subjects: ['all'],
+        features: ['3-2-1 구조', '학습 전후 비교', '자동 저장', '진행률 표시', '이미지 다운로드', 'A4 인쇄 최적화'],
+        keywords: ['개념변화', '메타인지', '성찰', '학습전후', '브릿지'],
+        url: 'https://plusiam.github.io/321-bridge-worksheet/321.html',
+        githubUrl: 'https://github.com/plusiam/321-bridge-worksheet',
+        hasInteractive: true
+    },
     
     // 2단계: 종합·체계화 (Synthesis)
+    {
+        id: 'headlines',
+        name: 'Headlines',
+        nameKo: '나만의 한 줄 요약',
+        stage: 'synthesis',
+        emoji: '📰',
+        description: '학습 내용을 창의적인 헤드라인으로 요약하는 도구',
+        purpose: '핵심 개념 추출과 창의적 표현 능력 개발',
+        usage: '수업 마무리, 단원 정리, 독서 후 활동, 프로젝트 요약',
+        subjects: ['all'],
+        features: ['다양한 헤드라인 템플릿', '이모지 지원', '실시간 미리보기', '이미지 다운로드'],
+        keywords: ['요약', '헤드라인', '핵심정리', '창의성', '기사제목'],
+        url: 'https://plusiam.github.io/headline-maker-kids/',
+        githubUrl: 'https://github.com/plusiam/headline-maker-kids',
+        hasInteractive: true
+    },
     {
         id: 'color-symbol-image',
         name: 'Color, Symbol, Image',
