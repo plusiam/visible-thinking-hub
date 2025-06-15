@@ -18,6 +18,22 @@ const thinkingTools = [
         hasInteractive: true
     },
     {
+        id: 'see-think-wonder-template',
+        name: 'See-Think-Wonder Template',
+        nameKo: '보기-생각하기-궁금하기 템플릿',
+        stage: 'exploration',
+        emoji: '🖼️',
+        description: '간단한 템플릿 형태의 See-Think-Wonder 활동지',
+        purpose: '빠른 관찰 활동과 간편한 기록을 위한 템플릿 버전',
+        usage: '짧은 활동, 종이 활동지 대체, 모바일 환경',
+        subjects: ['art', 'science', 'social', 'korean'],
+        features: ['간편한 입력', '템플릿 구조', '인쇄 최적화', '모바일 친화적'],
+        keywords: ['관찰', '템플릿', '간편', '활동지', 'STW'],
+        url: 'https://plusiam.github.io/see-think-wonder-templet/',
+        githubUrl: 'https://github.com/plusiam/see-think-wonder-templet',
+        hasInteractive: true
+    },
+    {
         id: 'think-puzzle-explore',
         name: 'Think-Puzzle-Explore',
         nameKo: '생각-퍼즐-탐구',
@@ -97,6 +113,22 @@ const thinkingTools = [
         keywords: ['연결', '확장', '도전', '심화', 'CEC'],
         url: 'https://plusiam.github.io/connect-extend-challenge/',
         githubUrl: 'https://github.com/plusiam/connect-extend-challenge',
+        hasInteractive: true
+    },
+    {
+        id: 'connect-extend-challenge-templates',
+        name: 'Connect-Extend-Challenge Templates',
+        nameKo: '연결-확장-도전 템플릿',
+        stage: 'synthesis',
+        emoji: '📋',
+        description: '다양한 템플릿이 제공되는 Connect-Extend-Challenge 도구',
+        purpose: '상황별 맞춤형 템플릿으로 효율적인 학습 정리',
+        usage: '교과별 템플릿 활용, 수준별 학습, 협동 학습',
+        subjects: ['all'],
+        features: ['다양한 템플릿', '교과별 최적화', '협동 학습 지원', '템플릿 선택'],
+        keywords: ['연결', '확장', '도전', '템플릿', 'CEC템플릿'],
+        url: 'https://plusiam.github.io/connect-extend-challengge-templates/',
+        githubUrl: 'https://github.com/plusiam/connect-extend-challengge-templates',
         hasInteractive: true
     },
     
