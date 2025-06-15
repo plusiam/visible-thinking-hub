@@ -65,6 +65,22 @@ const thinkingTools = [
         githubUrl: 'https://github.com/plusiam/321-bridge-worksheet',
         hasInteractive: true
     },
+    {
+        id: 'frayer-model',
+        name: 'Frayer Model',
+        nameKo: '프레이어 모델',
+        stage: 'exploration',
+        emoji: '📐',
+        description: '개념을 정의, 특징, 예시, 비예시로 나누어 깊이 있게 이해',
+        purpose: '핵심 개념의 완전한 이해와 명확한 구분',
+        usage: '새로운 개념 학습, 어휘 학습, 개념 정리, 평가',
+        subjects: ['all'],
+        features: ['4분면 구조', '시각적 정리', '예시/비예시 구분', '자동 저장', '이미지 다운로드'],
+        keywords: ['개념학습', '어휘', '정의', '특징', '예시'],
+        url: 'https://plusiam.github.io/frayer-model-worksheet/',
+        githubUrl: 'https://github.com/plusiam/frayer-model-worksheet',
+        hasInteractive: true
+    },
     
     // 2단계: 종합·체계화 (Synthesis)
     {
@@ -147,6 +163,22 @@ const thinkingTools = [
         githubUrl: 'https://github.com/plusiam/connect-extend-challengge-templates',
         hasInteractive: true
     },
+    {
+        id: 'sentence-phrase-word',
+        name: 'Sentence-Phrase-Word',
+        nameKo: '문장-구절-단어',
+        stage: 'synthesis',
+        emoji: '📝',
+        description: '학습 내용에서 핵심 문장, 구절, 단어를 선택하여 의미 압축',
+        purpose: '핵심 내용 추출과 의미의 단계적 압축 능력 개발',
+        usage: '텍스트 분석, 독서 활동, 강의 정리, 핵심 개념 파악',
+        subjects: ['korean', 'social', 'science'],
+        features: ['3단계 압축', '핵심 추출', '의미 구조화', '자동 저장', '공유 기능'],
+        keywords: ['요약', '압축', '핵심추출', '문장', 'SPW'],
+        url: 'https://plusiam.github.io/sentence-phrase-word/',
+        githubUrl: 'https://github.com/plusiam/sentence-phrase-word',
+        hasInteractive: true
+    },
     
     // 3단계: 심화 (Deepening)
     {
@@ -182,6 +214,38 @@ const thinkingTools = [
         hasInteractive: true
     },
     {
+        id: 'circle-of-viewpoints',
+        name: 'Circle of Viewpoints',
+        nameKo: '관점의 원',
+        stage: 'deepening',
+        emoji: '🎯',
+        description: '하나의 주제를 다양한 관점에서 탐구하는 인터랙티브 도구',
+        purpose: '다각도 사고와 관점 전환 능력 개발',
+        usage: '토론 준비, 비판적 사고, 공감 교육, 프로젝트 탐구',
+        subjects: ['all'],
+        features: ['인터랙티브 룰렛', '관점별 탐구', '무작위 선택', '진행률 추적', '이미지 저장'],
+        keywords: ['관점', '다각도', '토론', '비판적사고', '룰렛'],
+        url: 'https://plusiam.github.io/interactive-viewpoints-circle/',
+        githubUrl: 'https://github.com/plusiam/interactive-viewpoints-circle',
+        hasInteractive: true
+    },
+    {
+        id: 'orid-reflection',
+        name: 'ORID Reflection',
+        nameKo: 'ORID 성찰 도구',
+        stage: 'deepening',
+        emoji: '🔍',
+        description: '객관-반응-해석-결정의 4단계로 체계적인 성찰을 돕는 도구',
+        purpose: '경험의 체계적 성찰과 의미 있는 학습 도출',
+        usage: '수업 성찰, 프로젝트 평가, 경험 정리, 의사결정',
+        subjects: ['all'],
+        features: ['4단계 구조', '단계별 가이드 질문', '성찰 기록', '자동 저장', 'PDF 출력'],
+        keywords: ['성찰', 'ORID', '평가', '반성', '메타인지'],
+        url: 'https://plusiam.github.io/orid-reflection-tool/',
+        githubUrl: 'https://github.com/plusiam/orid-reflection-tool',
+        hasInteractive: true
+    },
+    {
         id: 'abc-thinking',
         name: 'ABC Thinking',
         nameKo: 'ABC 생각바꾸기',
@@ -195,6 +259,25 @@ const thinkingTools = [
         keywords: ['인지행동', '사고전환', '감정조절', 'ABC모델', '긍정사고'],
         url: 'https://plusiam.github.io/abc-think/',
         githubUrl: 'https://github.com/plusiam/abc-think',
+        hasInteractive: true
+    }
+];
+
+// 특별 도구 (사고가시화 외)
+const specialTools = [
+    {
+        id: 'invisible-child',
+        name: 'Invisible Child Worksheet',
+        nameKo: '투명 아이 활동지',
+        category: 'special',
+        emoji: '👻',
+        description: '학급 내 소외된 학생을 발견하고 도움을 주는 활동 도구',
+        purpose: '학급 구성원 간의 관계 파악과 소외 학생 지원',
+        usage: '학급 경영, 또래 관계 개선, 공동체 의식 함양',
+        features: ['관계 지도', '익명 설문', '지원 계획', '추적 관찰'],
+        keywords: ['학급경영', '또래관계', '소외', '공동체', '배려'],
+        url: 'https://plusiam.github.io/invisible-child-worksheet/',
+        githubUrl: 'https://github.com/plusiam/invisible-child-worksheet',
         hasInteractive: true
     }
 ];
@@ -224,5 +307,5 @@ function searchTools(keyword) {
 
 // Export for use in other scripts
 if (typeof module !== 'undefined' && module.exports) {
-    module.exports = { thinkingTools, getToolsByStage, getToolsBySubject, searchTools };
+    module.exports = { thinkingTools, specialTools, getToolsByStage, getToolsBySubject, searchTools };
 }
