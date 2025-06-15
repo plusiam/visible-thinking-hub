@@ -100,6 +100,22 @@ const thinkingTools = [
         hasInteractive: true
     },
     {
+        id: 'generate-sort-connect-elaborate',
+        name: 'Generate-Sort-Connect-Elaborate',
+        nameKo: '생성-분류-연결-정교화',
+        stage: 'synthesis',
+        emoji: '🗂️',
+        description: '아이디어를 생성하고 분류하여 연결하고 정교하게 발전시키는 도구',
+        purpose: '창의적 사고와 체계적 정리 능력 개발',
+        usage: '브레인스토밍, 개념 정리, 프로젝트 기획, 문제 해결',
+        subjects: ['all'],
+        features: ['아이디어 생성', '카테고리 분류', '연결선 그리기', '정교화 작성', '시각적 맵핑'],
+        keywords: ['생성', '분류', '연결', '정교화', 'GSCE'],
+        url: 'https://plusiam.github.io/generate-classify-connect-elaborate/',
+        githubUrl: 'https://github.com/plusiam/generate-classify-connect-elaborate',
+        hasInteractive: true
+    },
+    {
         id: 'connect-extend-challenge',
         name: 'Connect-Extend-Challenge',
         nameKo: '연결-확장-도전',
@@ -147,6 +163,22 @@ const thinkingTools = [
         keywords: ['공감', '관점', '역할', '이해', '마음'],
         url: 'https://plusiam.github.io/step-inside-v2/',
         githubUrl: 'https://github.com/plusiam/step-inside-v2',
+        hasInteractive: true
+    },
+    {
+        id: 'step-inside-improved',
+        name: 'Step Inside Improved',
+        nameKo: '마음속으로 들어가기 개선판',
+        stage: 'deepening',
+        emoji: '🎭',
+        description: '영상 관리와 교사 전용 페이지가 추가된 향상된 버전',
+        purpose: '멀티미디어를 활용한 깊이 있는 공감 학습',
+        usage: '영상 기반 인물 분석, 역할극, 교사 주도 수업',
+        subjects: ['social', 'korean', 'art'],
+        features: ['영상 관리', '교사 전용 페이지', '반응형 웹', '새로시작 기능', '영상 URL 입력'],
+        keywords: ['공감', '영상', '교사도구', '멀티미디어', '개선판'],
+        url: 'https://plusiam.github.io/step-inside-worksheet-improved/',
+        githubUrl: 'https://github.com/plusiam/step-inside-worksheet-improved',
         hasInteractive: true
     },
     {
