@@ -111,10 +111,26 @@ const thinkingTools = [
         purpose: '공감 능력과 다양한 관점 이해 능력 개발',
         usage: '역사 인물 이해, 문학 작품 감상, 갈등 상황 이해',
         subjects: ['social', 'korean', 'art'],
-        features: ['관점 전환 가이드', '공감 지도', '자동 저장', '이미지 저장'],
+        features: ['학생 정보 입력', '자동 저장', '개선된 이미지 저장', 'A4 인쇄 최적화', '키보드 네비게이션', '초기화 기능'],
         keywords: ['공감', '관점', '역할', '이해', '마음'],
-        url: 'https://plusiam.github.io/step-inside-worksheet/',
-        githubUrl: 'https://github.com/plusiam/step-inside-worksheet',
+        url: 'https://plusiam.github.io/step-inside-v2/',
+        githubUrl: 'https://github.com/plusiam/step-inside-v2',
+        hasInteractive: true
+    },
+    {
+        id: 'abc-thinking',
+        name: 'ABC Thinking',
+        nameKo: 'ABC 생각바꾸기',
+        stage: 'deepening',
+        emoji: '🔤',
+        description: '상황-생각-감정-행동의 연결고리를 이해하고 긍정적 사고로 전환',
+        purpose: '인지행동 접근법을 통한 사고 패턴 인식과 전환',
+        usage: '감정 조절, 갈등 해결, 긍정적 사고 훈련, 문제 상황 분석',
+        subjects: ['all'],
+        features: ['ABC 모델 구조', '사고 전환 가이드', '감정 이모지', '자동 저장', '이미지 다운로드'],
+        keywords: ['인지행동', '사고전환', '감정조절', 'ABC모델', '긍정사고'],
+        url: 'https://plusiam.github.io/abc-think/',
+        githubUrl: 'https://github.com/plusiam/abc-think',
         hasInteractive: true
     }
 ];
