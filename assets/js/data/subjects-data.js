@@ -24,6 +24,12 @@ const subjectThemes = {
         { value: 'society', label: '사회 현상' },
         { value: 'culture', label: '문화' }
     ],
+    moral: [
+        { value: 'self', label: '자아 성찰' },
+        { value: 'relationship', label: '인간 관계' },
+        { value: 'society-ethics', label: '사회 윤리' },
+        { value: 'values', label: '가치 탐구' }
+    ],
     art: [
         { value: 'appreciation', label: '작품 감상' },
         { value: 'expression', label: '표현 활동' },
@@ -57,6 +63,12 @@ const recommendationMap = {
     'social-geography': ['see-think-wonder', 'think-puzzle-explore'],
     'social-society': ['think-puzzle-explore', 'step-inside'],
     'social-culture': ['color-symbol-image', 'step-inside'],
+    
+    // 도덕
+    'moral-self': ['connect-extend-challenge', 'step-inside'],
+    'moral-relationship': ['circle-of-viewpoints', 'step-inside'],
+    'moral-society-ethics': ['compass-points', 'think-puzzle-explore'],
+    'moral-values': ['color-symbol-image', 'connect-extend-challenge'],
     
     // 예술
     'art-appreciation': ['see-think-wonder', 'color-symbol-image', 'step-inside'],
