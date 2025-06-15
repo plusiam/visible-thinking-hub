@@ -37,6 +37,16 @@
     .stage-explanation {
         grid-template-columns: 1fr;
     }
+    
+    .stage-explain-item {
+        padding: var(--spacing-md);
+    }
+    
+    .stage-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
 }
 
 @media (max-width: 480px) {
@@ -88,6 +98,22 @@
     
     .nav-menu {
         width: 100%;
+    }
+    
+    .stage-explain-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .stage-explain-item::before {
+        width: 100%;
+        height: 4px;
+        left: 0;
+        top: 0;
+    }
+    
+    .stage-content h4 {
+        font-size: 1rem;
     }
 }
 
@@ -153,6 +179,15 @@
         color: black;
         text-decoration: none;
     }
+    
+    .stage-explain-item {
+        border: 1px solid #000;
+        margin-bottom: 0.5rem;
+    }
+    
+    .stage-number {
+        border: 2px solid #000;
+    }
 }
 
 /* 접근성: 모션 줄이기 설정 */
@@ -169,6 +204,10 @@
     }
     
     .btn:hover {
+        transform: none;
+    }
+    
+    .stage-explain-item:hover {
         transform: none;
     }
 }
@@ -188,7 +227,8 @@
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .logo-icon,
     .tool-emoji,
-    .stage-icon {
+    .stage-icon,
+    .stage-number {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
