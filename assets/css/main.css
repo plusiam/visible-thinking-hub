@@ -204,6 +204,115 @@ a:hover {
     font-size: 1.5rem;
 }
 
+/* ===== 단계 설명 스타일 ===== */
+.stage-explanation {
+    display: grid;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.stage-explain-item {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    background: var(--surface);
+    border-radius: 16px;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.stage-explain-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: var(--border-color);
+    transition: var(--transition);
+}
+
+.stage-explain-item.exploration::before {
+    background: var(--exploration-color);
+}
+
+.stage-explain-item.synthesis::before {
+    background: var(--synthesis-color);
+}
+
+.stage-explain-item.deepening::before {
+    background: var(--deepening-color);
+}
+
+.stage-explain-item:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-md);
+}
+
+.stage-number {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-shrink: 0;
+    background: var(--border-color);
+    color: var(--text-primary);
+}
+
+.stage-explain-item.exploration .stage-number {
+    background: var(--exploration-color);
+    color: var(--text-primary);
+}
+
+.stage-explain-item.synthesis .stage-number {
+    background: var(--synthesis-color);
+    color: white;
+}
+
+.stage-explain-item.deepening .stage-number {
+    background: var(--deepening-color);
+    color: white;
+}
+
+.stage-content {
+    flex: 1;
+}
+
+.stage-content h4 {
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-sm);
+    font-weight: 600;
+}
+
+.stage-content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+/* 다크 모드에서 단계 번호 스타일 */
+body.dark-mode .stage-number {
+    background: rgba(255,255,255,0.1);
+}
+
+body.dark-mode .stage-explain-item.exploration .stage-number {
+    background: var(--exploration-color);
+    color: #2c3e50;
+}
+
+body.dark-mode .stage-explain-item.synthesis .stage-number {
+    background: var(--synthesis-color);
+}
+
+body.dark-mode .stage-explain-item.deepening .stage-number {
+    background: var(--deepening-color);
+}
+
 /* ===== 컨테이너 ===== */
 .container {
     max-width: 1200px;
