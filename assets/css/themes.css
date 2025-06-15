@@ -1,0 +1,173 @@
+/* 다크 모드 테마 */
+body.dark-mode {
+    --primary-color: #64b5f6;
+    --secondary-color: #ffb74d;
+    --success-color: #81c784;
+    --danger-color: #e57373;
+    --warning-color: #ffd54f;
+    
+    --exploration-color: #ffd54f;
+    --synthesis-color: #ffb74d;
+    --deepening-color: #64b5f6;
+}
+
+body.dark-mode .tool-card {
+    background: var(--surface);
+}
+
+body.dark-mode .feature-tag {
+    background: var(--surface);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .hero {
+    background: linear-gradient(135deg, var(--surface) 0%, var(--background) 100%);
+}
+
+body.dark-mode .interactive-badge {
+    background: var(--success-color);
+}
+
+body.dark-mode .tool-link.primary {
+    background: var(--primary-color);
+}
+
+body.dark-mode .tool-link.github {
+    background: var(--surface);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .form-select {
+    background: var(--surface);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+body.dark-mode .pathway-card {
+    background: var(--surface);
+}
+
+body.dark-mode .stage-explanation .stage-item {
+    background: var(--surface);
+}
+
+/* 테마 전환 애니메이션 */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tool-card,
+.hero,
+.header,
+.footer,
+.quick-recommend,
+.pathways-section,
+.about-section {
+    transition: background-color 0.3s ease;
+}
+
+/* 라이트 모드 특별 스타일 */
+body:not(.dark-mode) {
+    /* 그라디언트 텍스트 효과 */
+    .hero-title {
+        background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+/* 다크 모드 특별 스타일 */
+body.dark-mode {
+    /* 네온 효과 */
+    .hero-title {
+        text-shadow: 0 0 20px rgba(100, 181, 246, 0.5);
+        color: var(--primary-color);
+    }
+    
+    .interactive-badge {
+        box-shadow: 0 0 10px rgba(129, 199, 132, 0.5);
+    }
+}
+
+/* 테마별 스크롤바 스타일 */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--surface);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: var(--text-secondary);
+}
+
+/* 다크 모드 스크롤바 */
+body.dark-mode::-webkit-scrollbar-thumb {
+    background: var(--text-secondary);
+}
+
+body.dark-mode::-webkit-scrollbar-thumb:hover {
+    background: var(--text-primary);
+}
+
+/* 테마별 선택 영역 스타일 */
+::selection {
+    background: rgba(74, 144, 226, 0.2);
+    color: var(--text-primary);
+}
+
+body.dark-mode ::selection {
+    background: rgba(100, 181, 246, 0.3);
+    color: white;
+}
+
+/* 테마별 포커스 스타일 */
+body:not(.dark-mode) *:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+body.dark-mode *:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* 테마별 링크 스타일 */
+body.dark-mode a {
+    color: var(--primary-color);
+}
+
+body.dark-mode a:hover {
+    color: var(--secondary-color);
+}
+
+/* 테마 토글 버튼 애니메이션 */
+.theme-toggle {
+    position: relative;
+    overflow: hidden;
+}
+
+.theme-toggle .theme-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.theme-toggle:hover .theme-icon {
+    transform: rotate(180deg);
+}
+
+/* 다크 모드 카드 호버 효과 */
+body.dark-mode .tool-card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .pathway-card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
