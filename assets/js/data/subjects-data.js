@@ -32,26 +32,35 @@ const subjectThemes = {
     ]
 };
 
-// 추천 도구 매핑 (현재는 2개 도구만 있으므로 간단하게)
+// 추천 도구 매핑
 const recommendationMap = {
     // 국어
     'korean-reading': ['see-think-wonder'],
-    'korean-writing': ['think-puzzle-explore'],
-    'korean-literature': ['see-think-wonder'],
+    'korean-writing': ['think-puzzle-explore', 'connect-extend-challenge'],
+    'korean-literature': ['see-think-wonder', 'step-inside', 'color-symbol-image'],
+    'korean-grammar': ['think-puzzle-explore'],
     
     // 수학
     'math-number': ['think-puzzle-explore'],
-    'math-geometry': ['see-think-wonder'],
+    'math-geometry': ['see-think-wonder', 'color-symbol-image'],
+    'math-measurement': ['think-puzzle-explore'],
+    'math-pattern': ['see-think-wonder', 'connect-extend-challenge'],
     
     // 과학
     'science-physics': ['see-think-wonder', 'think-puzzle-explore'],
-    'science-biology': ['see-think-wonder'],
+    'science-chemistry': ['think-puzzle-explore', 'color-symbol-image'],
+    'science-biology': ['see-think-wonder', 'step-inside'],
+    'science-earth': ['see-think-wonder', 'connect-extend-challenge'],
     
     // 사회
-    'social-history': ['see-think-wonder'],
-    'social-society': ['think-puzzle-explore'],
+    'social-history': ['see-think-wonder', 'step-inside', 'color-symbol-image'],
+    'social-geography': ['see-think-wonder', 'think-puzzle-explore'],
+    'social-society': ['think-puzzle-explore', 'step-inside'],
+    'social-culture': ['color-symbol-image', 'step-inside'],
     
     // 예술
-    'art-appreciation': ['see-think-wonder'],
-    'art-creativity': ['think-puzzle-explore']
+    'art-appreciation': ['see-think-wonder', 'color-symbol-image', 'step-inside'],
+    'art-expression': ['color-symbol-image', 'think-puzzle-explore'],
+    'art-creativity': ['think-puzzle-explore', 'color-symbol-image'],
+    'art-analysis': ['see-think-wonder', 'connect-extend-challenge']
 };
