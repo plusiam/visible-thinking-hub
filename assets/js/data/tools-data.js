@@ -66,6 +66,22 @@ const thinkingTools = [
         hasInteractive: true
     },
     {
+        id: 'bridge-learning-sheets',
+        name: '3-2-1 Bridge Learning Sheets',
+        nameKo: '3-2-1 다리 공부하기',
+        stage: 'exploration',
+        emoji: '🌈',
+        description: '체계적인 4단계 학습 과정을 통한 개념 변화 추적 도구',
+        purpose: '학습 전후 생각의 변화를 체계적으로 기록하고 분석',
+        usage: '수업 전체 과정, 개념 학습, 프로젝트 학습, 학습 성찰',
+        subjects: ['all'],
+        features: ['4단계 진행률 표시', '학습 전후 비교', 'Google Sheets 연동', '자동 저장', '이미지 다운로드', '선생님 제출 기능', '학습 결과 시각화'],
+        keywords: ['학습과정', '개념변화', '데이터수집', '체계적학습', '진행관리', '결과분석'],
+        url: 'https://plusiam.github.io/bridge-learning-sheets/',
+        githubUrl: 'https://github.com/plusiam/bridge-learning-sheets',
+        hasInteractive: true
+    },
+    {
         id: 'frayer-model',
         name: 'Frayer Model',
         nameKo: '프레이어 모델',
